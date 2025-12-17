@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -11,8 +10,15 @@ class MyApp extends StatelessWidget {
   
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('HELLO WORLD'),
+        ),
+      ),
+      
+      
      
- 
+       
 
             );
       
