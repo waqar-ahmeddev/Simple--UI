@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('HELLO WORLD'),
+          backgroundColor: Colors.amberAccent,
+          
         ),
       ),
       
