@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart'; // Ye file me aapka HomeScreen1 widget hai
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
      
-           home: HomeScreen(),
+ 
 
             );
       
