@@ -11,19 +11,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('HELLO WORLD'),
-          backgroundColor: Colors.amberAccent,
-          
+        backgroundColor: Colors.white,
+        body: SafeArea(
+          child: Column(
+            children: [
+              // Logo and title section coming next
+            ],
+          ),
         ),
       ),
-      
-      
-     
-       
-
-            );
-      
+    );
   }
 }
+
 
