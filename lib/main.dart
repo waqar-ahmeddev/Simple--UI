@@ -49,6 +49,32 @@ class MyApp extends StatelessWidget {
     ),
   ],
 ),
+             SizedBox(height: 50),
+Center(
+  child: Text(
+    'Login',
+    style: TextStyle(
+      fontSize: 24,
+      fontFamily: 'Rubik Medium',
+      color: Color(0xFF2D3142),
+    ),
+  ),
+),
+SizedBox(height: 12),
+const Column(
+  children: [
+    Text(
+      'Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit',
+      style: TextStyle(
+        fontSize: 16,
+        fontFamily: 'Rubik Regular',
+        color: Color(0xFF4C5980),
+      ),
+    ),
+  ],
+),
+SizedBox(height: 20),
+
             ]
           )
         ),
