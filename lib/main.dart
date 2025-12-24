@@ -122,6 +122,66 @@ SizedBox(height: 20),
     ),
   ),
 ),
+SizedBox(height: 10),
+Row(
+  mainAxisAlignment: MainAxisAlignment.end,
+  children: [
+    Padding(
+      padding: const EdgeInsets.only(right: 20),
+      child: Text(
+        'Forgot Password?',
+        style: TextStyle(
+          fontSize: 17,
+          fontFamily: 'Rubik Medium',
+          decoration: TextDecoration.underline,
+          decorationColor: Colors.black,
+          decorationThickness: 1,
+        ),
+      ),
+    ),
+  ],
+),
+SizedBox(height: 100),
+Container(
+  height: 50,
+  width: 300,
+  decoration: BoxDecoration(
+    color: Color(0xFFF9703B),
+    borderRadius: BorderRadius.circular(10),
+  ),
+  child: Center(
+    child: Text(
+      'Log In',
+      style: TextStyle(
+        fontSize: 18,
+        fontFamily: 'Rubik Regular',
+        color: Colors.white,
+      ),
+    ),
+  ),
+),
+SizedBox(height: 15),
+Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: [
+    Text(
+      'Dont have an account?',
+      style: TextStyle(
+        fontSize: 16,
+        fontFamily: 'Rubik Regular',
+        color: Color(0xFF4C5980),
+      ),
+    ),
+    Text(
+      ' Sign Up',
+      style: TextStyle(
+        fontSize: 16,
+        fontFamily: 'Rubik Medium',
+        color: Color(0xFFF9703B),
+      ),
+    ),
+  ],
+),
 
             ]
           )
