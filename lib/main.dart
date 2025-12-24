@@ -74,6 +74,54 @@ const Column(
   ],
 ),
 SizedBox(height: 20),
+          Padding(
+  padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+  child: TextFormField(
+    decoration: InputDecoration(
+      hintText: 'Email',
+      hintStyle: TextStyle(
+        fontSize: 20,
+        fontFamily: 'Rubik Regular',
+        color: Colors.black,
+      ),
+      fillColor: Color(0xFFF8F9FA),
+      filled: true,
+      prefixIcon: Icon(Icons.mark_email_read_outlined, color: Color(0xFF323F4B)),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Color(0xFFE4E7EB)),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Color(0xFFE4E7EB)),
+        borderRadius: BorderRadius.circular(10),
+      ),
+    ),
+  ),
+),
+   Padding(
+  padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+  child: TextFormField(
+    decoration: InputDecoration(
+      hintText: 'Password',
+      hintStyle: TextStyle(
+        fontSize: 20,
+        fontFamily: 'Rubik Regular',
+        color: Colors.black,
+      ),
+      fillColor: Color(0xFFF8F9FA),
+      filled: true,
+      prefixIcon: Icon(Icons.lock_open, color: Color(0xFF323F4B)),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Color(0xFFE4E7EB)),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Color(0xFFE4E7EB)),
+        borderRadius: BorderRadius.circular(10),
+      ),
+    ),
+  ),
+),
 
             ]
           )
